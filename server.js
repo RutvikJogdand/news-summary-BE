@@ -74,7 +74,7 @@ app.post('/summarize', async (req, res) => {
         const summary = openAIResponse.choices[0].message.content.trim();
         res.json({ summary });
     } catch (error) {
-        console.error('Error summarizing article:', error.response ? error.response.data : error.message);
+        // console.error('Error summarizing article:', error.response ? error.response.data : error.message);
         res.status(500).send('Error summarizing article');
     }
 });
