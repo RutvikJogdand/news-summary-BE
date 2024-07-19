@@ -1,6 +1,6 @@
 ## News and Summary API Documentation
 ### Overview
--- This API provides endpoints to fetch news articles based on a query, date range, and page number, and to summarize a given article using OpenAI's GPT-3.5-turbo model.
+- This API provides endpoints to fetch news articles based on a query, date range, and page number, and to summarize a given article using OpenAI's GPT-3.5-turbo model.
 
 ### Prerequisites:
 1) Node.js installed on your machine
